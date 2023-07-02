@@ -13,8 +13,8 @@
 - 使用Html、Css / Sass和JavaScript編寫。
 - 皆以純CSS繪製，圖片樣本源於[神奇寶貝百科](https://wiki.52poke.com/zh-hant/宝可梦列表（探险寻宝）)內容。
 - 使用[Font Awesome 6](https://fontawesome.com/v6/search)圖標。
-- 可以在[此處](https://pardnchiu.github.io/website-template-26)進行預覽。
-- 可以在[GitHub](https://github.com/pardnchiu/website-template-26)上找到源碼。
+- 可以在[此處](https://pardnchiu.github.io/pokemon-quest-css-drawing)進行預覽。
+- 可以在[GitHub](https://github.com/pardnchiu/pokemon-quest-css-drawing)上找到源碼。
 
 ## 作者和貢獻者
 
