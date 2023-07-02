@@ -7,6 +7,8 @@
 | ![](https://media.52poke.com/wiki/9/97/PQ_001_icon.png) | ![](https://media.52poke.com/wiki/1/19/PQ_002_icon.png) | ![](https://media.52poke.com/wiki/0/0d/PQ_003_icon.png) | ![](https://media.52poke.com/wiki/a/a6/PQ_004_icon.png) |
 | **005** | **006** | **007** | **008** |
 | ![](https://media.52poke.com/wiki/1/18/PQ_005_icon.png) | ![](https://media.52poke.com/wiki/0/0c/PQ_006_icon.png) | ![](https://media.52poke.com/wiki/b/b2/PQ_007_icon.png) | ![](https://media.52poke.com/wiki/c/c4/PQ_008_icon.png) |
+| **009** |
+| ![](https://media.52poke.com/wiki/c/c8/PQ_009_icon.png) |
 
 ## 功能特點
 
