@@ -1,6 +1,6 @@
 # Pokemon Quest 寶可夢探險圖鑑 (CSS繪圖)
 
-![Pokemon Quest 寶可夢探險圖鑑 (CSS繪圖)](./image/preview.jpg)
+<!-- ![Pokemon Quest 寶可夢探險圖鑑 (CSS繪圖)](./image/preview.jpg) -->
 
 ## 功能特點
 
