@@ -2,10 +2,14 @@
 
 <!-- ![Pokemon Quest 寶可夢探險圖鑑 (CSS繪圖)](./image/preview.jpg) -->
 
+| 001 | 002 | 003 |
+| - | - | - |
+| ![](./image/no001.jpg) | ![](./image/no002.jpg) | ![](./image/no003.jpg) |
+
 ## 功能特點
 
 - 使用Html、Css / Sass和JavaScript編寫。
-- 寶可夢圖鑑中的圖片皆為純CSS繪製。
+- 皆以純CSS繪製，圖片來源於[神奇寶貝百科](https://wiki.52poke.com/zh-hant/宝可梦列表（探险寻宝）)內容。
 - 使用[Font Awesome 6](https://fontawesome.com/v6/search)圖標。
 - 可以在[此處](https://pardnchiu.github.io/website-template-26)進行預覽。
 - 可以在[GitHub](https://github.com/pardnchiu/website-template-26)上找到源碼。
