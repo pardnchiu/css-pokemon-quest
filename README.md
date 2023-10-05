@@ -1,6 +1,6 @@
-# Pokemon Quest 寶可夢探險圖鑑 (CSS繪圖)
+下一篇: [App Introducing Page 介紹頁面實作範例](https://github.com/pardnchiu/app-introducing-page)
 
-*不定期更新，在想放鬆休息的時候才會製作。*
+# Pokemon Quest Css Drawing 寶可夢探險圖鑑 (CSS繪圖)
 
 |  |  |  |  |
 | :-- | :-- | :-- | :-- |
@@ -13,18 +13,19 @@
 
 ## 功能特點
 
-- 使用Html、Css / Sass和JavaScript編寫。
-- 皆以純CSS繪製，圖片樣本源於[神奇寶貝百科](https://wiki.52poke.com/zh-hant/宝可梦列表（探险寻宝）)內容。
-- 可以在[此處](https://pardnchiu.github.io/pokemon-quest-css-drawing)進行預覽。
-- 可以在[GitHub](https://github.com/pardnchiu/pokemon-quest-css-drawing)上找到源碼。
+- Built using Html, Css / Sass and JavaScript.
+- Drawn using pure Css.
+- Image references from [神奇寶貝百科](https://wiki.52poke.com/zh-hant/宝可梦列表（探险寻宝）).
+- Preview available [Here](https://pardnchiu.github.io/pokemon-quest-css-drawing/).
 
-## 作者和貢獻者
+## Contributor
 
-- [Pardn Ltd 帕登國際有限公司](https://linkedin.com/company/pardnltd)
-- [Pardn Chiu 邱敬幃](https://linkedin.com/in/pardnchiu)
+- [邱敬幃 Pardn Chiu](https://linkedin.com/in/pardnchiu)
 
-## 授權
+## License
 
-本源碼項目使用GPL-3.0 license授權。
+This source code project is licensed under the GPL-3.0 license.
 
-版權所有 (c) 2023 [Pardn Ltd 帕登國際有限公司](https://www.linkedin.com/company/pardnltd)
+***
+
+©️ 2023 [邱敬幃 Pardn Chiu](https://www.linkedin.com/in/pardnchiu)
