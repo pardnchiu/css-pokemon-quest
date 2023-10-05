@@ -1,31 +1,45 @@
-下一篇: [App Introducing Page 介紹頁面實作範例](https://github.com/pardnchiu/app-introducing-page)
+# Pokemon Quest Css Drawing
 
-# Pokemon Quest Css Drawing 寶可夢探險圖鑑 (CSS繪圖)
+<a href="https://hits.sh/github.com/pardnchiu/pokemon-quest-css-drawing/"><img alt="Hits" src="https://hits.sh/github.com/pardnchiu/pokemon-quest-css-drawing.svg?label=Hit"/></a> <img src="https://img.shields.io/github/repo-size/pardnchiu/pokemon-quest-css-drawing?label=Size"> <img src="https://img.shields.io/github/license/pardnchiu/pokemon-quest-css-drawing?label=License"> <img src="https://img.shields.io/badge/Developer-邱敬幃%20Pardn%20Chiu-A374BF">
 
-|  |  |  |  |
-| :-- | :-- | :-- | :-- |
-| ![](https://media.52poke.com/wiki/9/97/PQ_001_icon.png) | ![](https://media.52poke.com/wiki/1/19/PQ_002_icon.png) | ![](https://media.52poke.com/wiki/0/0d/PQ_003_icon.png) | ![](https://media.52poke.com/wiki/a/a6/PQ_004_icon.png) |
-| ![](https://media.52poke.com/wiki/1/18/PQ_005_icon.png) | ![](https://media.52poke.com/wiki/0/0c/PQ_006_icon.png) | ![](https://media.52poke.com/wiki/b/b2/PQ_007_icon.png) | ![](https://media.52poke.com/wiki/c/c4/PQ_008_icon.png) |
-| ![](https://media.52poke.com/wiki/c/c8/PQ_009_icon.png) | ![](https://media.52poke.com/wiki/a/a6/PQ_010_icon.png) | ![](https://media.52poke.com/wiki/7/7b/PQ_011_icon.png) | ![](https://media.52poke.com/wiki/4/49/PQ_012_icon.png) |
-| ![](https://media.52poke.com/wiki/5/5a/PQ_013_icon.png) | ![](https://media.52poke.com/wiki/6/6a/PQ_014_icon.png) | ![](https://media.52poke.com/wiki/1/1d/PQ_015_icon.png) | ![](https://media.52poke.com/wiki/5/57/PQ_016_icon.png) |
-| ![](https://media.52poke.com/wiki/a/a7/PQ_017_icon.png) | ![](https://media.52poke.com/wiki/d/d9/PQ_018_icon.png) | ![](https://media.52poke.com/wiki/e/e2/PQ_019_icon.png) | ![](https://media.52poke.com/wiki/c/c6/PQ_020_icon.png) |
-| ![](https://media.52poke.com/wiki/0/05/PQ_021_icon.png) | ![](https://media.52poke.com/wiki/7/75/PQ_022_icon.png) | ![](https://media.52poke.com/wiki/3/3d/PQ_023_icon.png) | ![](https://media.52poke.com/wiki/4/41/PQ_024_icon.png) |
+![Pokemon Quest Css Drawing - 邱敬幃 Pardn Chiu](https://pardn.io/image/repo/pokemon-quest-css-drawing.jpg)
 
-## 功能特點
+## Languages & Tools
 
-- Built using Html, Css / Sass and JavaScript.
+![](https://skillicons.dev/icons?i=html,css,sass,vscode)
+
+## Feature
+
 - Drawn using pure Css.
 - Image references from [神奇寶貝百科](https://wiki.52poke.com/zh-hant/宝可梦列表（探险寻宝）).
 - Preview available [Here](https://pardnchiu.github.io/pokemon-quest-css-drawing/).
 
 ## Contributor
 
-- [邱敬幃 Pardn Chiu](https://linkedin.com/in/pardnchiu)
+<a href="https://pardn.io">
+<img src=https://pardn.io/image/head-s.jpg align=left width=100 height=100>
+</a>
 
-## License
+### 邱敬幃 Pardn Chiu
 
-This source code project is licensed under the GPL-3.0 license.
+<a href="mailto:mail@pardn.ltd">
+  <img src="https://pardn.io/image/mail.svg">
+</a>&nbsp<a href="https://linkedin.com/in/pardnchiu">
+  <img src="https://skillicons.dev/icons?i=linkedin">
+</a>&nbsp<a href="https://pardn.io/blog">
+  <img src="https://pardn.io/image/blog.svg">
+</a>
 
-***
+<br>
+<br>
+<br>
 
-©️ 2023 [邱敬幃 Pardn Chiu](https://www.linkedin.com/in/pardnchiu)
+<a href=https://github.com/pardnchiu/personal-page-with-blog>
+  <img align=left src=https://pardn.io/image/left.svg height=32>
+</a>
+
+<a href=https://github.com/pardnchiu/app-introducing-page>
+  <img align=right src=https://pardn.io/image/right.svg height=32>
+</a>
+
+
