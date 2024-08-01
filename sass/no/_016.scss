@@ -1,0 +1,97 @@
+&[no="16"],
+&[no="016"] {
+    background: linear-gradient(to bottom, #C0A06F 0% 10.94%, #372E27 10.94% 38.28%, #F5ECBD 38.28% 100%);
+
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(82 / 256 * var(--width-fr));
+        border-top: calc(82 / 256 * var(--width-fr)) solid #F5ECBD;
+        border-left: calc(70 / 256 * var(--width-fr)) solid transparent;
+        border-right: calc(70 / 256 * var(--width-fr)) solid transparent;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(82 / 256 * var(--width-fr));
+        height: calc(106 / 256 * var(--width-fr));
+        background-color: #C0A06F;
+    }
+
+    >div:nth-child(1) {
+        position: absolute;
+        z-index: 0;
+        top: calc(52 / 256 * var(--width-fr));
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(170 / 256 * var(--width-fr));
+        height: calc(44 /256 * var(--width-fr));
+        outline: calc(10 / 256 * var(--width-fr)) solid #fff;
+
+        &::before {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: calc(134 / 256 * var(--width-fr));
+            height: calc(22 / 256 * var(--width-fr));
+            background: linear-gradient(to right, #fff 0% 11.94%, transparent 11.94% 88.06%, #fff 88.06% 100%);
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            z-index: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: calc(16 / 256 * var(--width-fr));
+            background: linear-gradient(to right, #483D3A 0% 14.12%, transparent 14.12% 85.88%, #483D3A 85.88% 100%);
+        }
+    }
+
+    >div:nth-child(2) {
+        position: absolute;
+        z-index: 0;
+        top: calc(106/ 256 * var(--width-fr));
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(120 / 256 * var(--width-fr));
+        height: calc(120 / 256 * var(--width-fr));
+        background-color: #C8A8B2;
+
+        &::before {
+            content: "";
+            z-index: 1;
+            position: absolute;
+            top: calc(52 / 256 * var(--width-fr));
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: calc(72 / 256 * var(--width-fr));
+            height: calc(26 / 256 * var(--width-fr));
+            background-color: #AF8491;
+            border-top: calc(14 / 256 * var(--width-fr)) solid #8C747B;
+            border-left: calc(14 / 256 * var(--width-fr)) solid #8C747B;
+            border-right: calc(14 / 256 * var(--width-fr)) solid #8C747B;
+        }
+    }
+}

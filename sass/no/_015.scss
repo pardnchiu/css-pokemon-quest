@@ -1,0 +1,68 @@
+&[no="15"],
+&[no="015"] {
+    background-color: #EDDC76;
+
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(156 / 256 * var(--width-fr));
+        height: calc(62 / 256 * var(--width-fr));
+        background: linear-gradient(to right, #A2A3B3 0% 16.7%, transparent 16.7% 83.3%, #A2A3B3 83.3% 100%);
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 0;
+        top: calc(104 / 256 * var(--width-fr));
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(222 / 256 * var(--width-fr));
+        height: calc(66 / 256 * var(--width-fr));
+        background-color: #B0595F;
+    }
+
+    >div:nth-child(1) {
+        position: absolute;
+        z-index: 1;
+        top: calc(108 / 256 * var(--width-fr));
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(174 / 256 * var(--width-fr));
+        height: calc(16 / 256 * var(--width-fr));
+        background: linear-gradient(to right, #E8D6D8 0% 17.2%, transparent 17.2% 82.8%, #E8D6D8 82.8% 100%);
+
+        &::before {
+            content: "";
+            position: absolute;
+            z-index: 0;
+            top: calc(46 / 256 * var(--width-fr));
+            left: calc(-11 / 256 * var(--width-fr));
+            right: 0;
+            margin: 0 auto;
+            width: calc(196 / 256 * var(--width-fr));
+            height: calc(16 / 256 * var(--width-fr));
+            background: linear-gradient(to right, #DDA789 0% 28.6%, transparent 28.6% 71.4%, #DDA789 71.4% 100%);
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: calc(-4 / 256 * var(--width-fr));
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: calc(54 / 256 * var(--width-fr));
+            border-top: calc(68 / 256 * var(--width-fr)) solid #EDDC76;
+            border-left: calc(26 / 256 * var(--width-fr)) solid transparent;
+            border-right: calc(26 / 256 * var(--width-fr)) solid transparent;
+        }
+    }
+}

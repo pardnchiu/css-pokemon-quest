@@ -1,0 +1,266 @@
+&[no="003"],
+&[no="3"] {
+    background: linear-gradient(to bottom, #E1808E 0% 14.84%, #8CC7C3 14.84% 68.75%, #864244 68.75% 78.91%, #9C7B94 78.91% 85.94%, #8CC7C3 85.94% 100%);
+
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(108 / 256 * var(--width-fr));
+        height: calc(54 / 256 * var(--width-fr));
+        background: linear-gradient(to bottom, #8C7152 0% 29.63%, #7B634A 29.63% 67.86%, #8C7152 67.86% 100%);
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: calc(54 / 256 * var(--width-fr));
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(140 / 256 * var(--width-fr));
+        height: calc(10 / 256 * var(--width-fr));
+        background-color: #759A78;
+    }
+    
+    >div:nth-child(1) {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: calc(24 / 256 * var(--width-fr));
+        width: calc(14 / 256 * var(--width-fr));
+        height: calc(14 / 256 * var(--width-fr));
+        background-color: #F4D3D3;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: calc(-188 / 256 * var(--width-fr));
+            width: calc(28 / 256 * var(--width-fr));
+            height: calc(28 / 256 * var(--width-fr));
+            background-color: #F4D3D3;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: calc(20 / 256 * var(--width-fr));
+            right: calc(-26 / 256 * var(--width-fr));
+            width: calc(20 / 256 * var(--width-fr));
+            height: calc(20 / 256 * var(--width-fr));
+            background-color: #F4D3D3;
+        }
+    }
+
+    >div:nth-child(2) {
+        position: absolute;
+        top: calc(36 / 256 * var(--width-fr));
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(202 / 256 * var(--width-fr));
+        border-top: calc(6 / 256 * var(--width-fr)) solid #E1808E;
+        border-left: calc(6 / 256 * var(--width-fr)) solid transparent;
+        border-right: calc(6 / 256 * var(--width-fr)) solid transparent;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: calc(182 / 256 * var(--width-fr));
+            border-top: calc(22 / 256 * var(--width-fr)) solid #E1808E;
+            border-left: calc(4 / 256 * var(--width-fr)) solid transparent;
+            border-right: calc(4 / 256 * var(--width-fr)) solid transparent;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: calc(22 / 256 * var(--width-fr));
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: calc(174 / 256 * var(--width-fr));
+            border-top: calc(20 / 256 * var(--width-fr)) solid #81A884;
+            border-left: calc(4 / 256 * var(--width-fr)) solid transparent;
+            border-right: calc(4 / 256 * var(--width-fr)) solid transparent;
+        }
+    }
+
+    >div:nth-child(3) {
+        position: absolute;
+        top: calc(84 / 256 * var(--width-fr));
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(128 / 256 * var(--width-fr));
+        height: calc(32 / 256 * var(--width-fr));
+        background-color: #81A884;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: calc(32 / 256 * var(--width-fr));
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: calc(108 / 256 * var(--width-fr));
+            border-top: calc(10 / 256 * var(--width-fr)) solid #81A884;
+            border-left: calc(10 / 256 * var(--width-fr)) solid transparent;
+            border-right: calc(10 / 256 * var(--width-fr)) solid transparent;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: calc(-20 / 256 * var(--width-fr));
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: calc(12 / 256 * var(--width-fr));
+            height: calc(40 / 256 * var(--width-fr));
+            background-color: #759A78;
+        }
+    }
+
+    >div:nth-child(4) {
+        position: absolute;
+        top: calc(50 / 256 * var(--width-fr));
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: calc(34 / 256 * var(--width-fr));
+        border-left: calc(26 / 256 * var(--width-fr)) solid #BD5F6D;
+        border-right: calc(26 / 256 * var(--width-fr)) solid #BD5F6D;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: calc(-4 / 256 * var(--width-fr));
+            left: calc(-26 / 256 * var(--width-fr));
+            width: calc(20 / 256 * var(--width-fr));
+            border-bottom: calc(4 / 256 * var(--width-fr)) solid #BD5F6D;
+            border-right: calc(6 / 256 * var(--width-fr)) solid transparent;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: calc(-4 / 256 * var(--width-fr));
+            right: calc(-26 / 256 * var(--width-fr));
+            width: calc(20 / 256 * var(--width-fr));
+            border-bottom: calc(4 / 256 * var(--width-fr)) solid #BD5F6D;
+            border-left: calc(6 / 256 * var(--width-fr)) solid transparent;
+        }
+    }
+
+    >div:nth-child(5) {
+        position: absolute;
+        top: calc(130 / 256 * var(--width-fr));
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(228 / 256 * var(--width-fr));
+        height: calc(34 / 256 * var(--width-fr));
+        border-left: calc(48 / 256 * var(--width-fr)) solid #FFFFFF;
+        border-right: calc(48 / 256 * var(--width-fr)) solid #FFFFFF;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: calc(-36 / 256 * var(--width-fr));
+            width: calc(152 / 256 * var(--width-fr));
+            height: calc(26 / 256 * var(--width-fr));
+            border-left: calc(26 / 256 * var(--width-fr)) solid #C65563;
+            border-right: calc(26 / 256 * var(--width-fr)) solid #C65563;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: calc(0 / 256 * var(--width-fr));
+            left: calc(-28 / 256 * var(--width-fr));
+            width: calc(168 / 256 * var(--width-fr));
+            height: calc(18 / 256 * var(--width-fr));
+            border-left: calc(10 / 256 * var(--width-fr)) solid #FFF;
+            border-right: calc(10 / 256 * var(--width-fr)) solid #FFF;
+        }
+    }
+
+    >div:nth-child(6) {
+        position: absolute;
+        top: calc(176 / 256 * var(--width-fr));
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(66 / 256 * var(--width-fr));
+        border-top: calc(10 / 256 * var(--width-fr)) solid #8CC7C3;
+        border-left: calc(8 / 256 * var(--width-fr)) solid transparent;
+        border-right: calc(8 / 256 * var(--width-fr)) solid transparent;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: calc(-70 / 256 * var(--width-fr));
+            left: calc(-89 / 256 * var(--width-fr));
+            height: calc(14 / 256 * var(--width-fr));
+            border-bottom: calc(20 / 256 * var(--width-fr)) solid transparent;
+            border-right: calc(48 / 256 * var(--width-fr)) solid #86C0BD;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: calc(-70 / 256 * var(--width-fr));
+            left: calc(91 / 256 * var(--width-fr));
+            height: calc(14 / 256 * var(--width-fr));
+            border-bottom: calc(20 / 256 * var(--width-fr)) solid transparent;
+            border-left: calc(48 / 256 * var(--width-fr)) solid #86C0BD;
+        }
+    }
+
+    >div:nth-child(7) {
+        position: absolute;
+        top: calc(176 / 256 * var(--width-fr));
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(232 / 256 * var(--width-fr));
+        height: calc(18 / 256 * var(--width-fr));
+        border-left: calc(18 / 256 * var(--width-fr)) solid #fff;
+        border-right: calc(18 / 256 * var(--width-fr)) solid #fff;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: calc(-10 / 256 * var(--width-fr));
+            bottom: calc(-26 / 256 * var(--width-fr));
+            right: calc(-10 / 256 * var(--width-fr));
+            width: calc(216 / 256 * var(--width-fr));
+            height: calc(12 / 256 * var(--width-fr));
+            background: linear-gradient(to right, #fff 0% 7.41%, transparent 7.41% 12.04%, #fff 12.04% 19.44%, transparent 19.44% 80.56%, #fff 80.56% 87.96%, transparent 87.96% 92.59%, #fff 92.59% 100%)
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: calc(-2 / 256 * var(--width-fr));
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: calc(22 / 256 * var(--width-fr));
+            height: calc(8 / 256 * var(--width-fr));
+            border-left: calc(6 / 256 * var(--width-fr)) solid #6B9A99;
+            border-right: calc(6 / 256 * var(--width-fr)) solid #6B9A99;
+        }
+    }
+}

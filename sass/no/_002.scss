@@ -1,0 +1,146 @@
+&[no="002"],
+&[no="2"] {
+    background-color: #81BBC6;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(150 / 256 * var(--width-fr));
+        border-top: calc(30 / 256 * var(--width-fr)) solid #D87289;
+        border-left: calc(20 / 256 * var(--width-fr)) solid transparent;
+        border-right: calc(20 / 256 * var(--width-fr)) solid transparent;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(124 / 256 * var(--width-fr));
+        height: calc(30 / 256 * var(--width-fr));
+        background-color: #6BA470;
+    }
+
+    >div:nth-child(1) {
+        position: absolute;
+        z-index: 1;
+        top: calc(86 / 256 * var(--width-fr));
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(146 / 256 * var(--width-fr));
+        border-top: calc(80 / 256 * var(--width-fr)) solid #81BBC6;
+        border-left: calc(46 / 256 * var(--width-fr)) solid transparent;
+        border-right: calc(46 / 256 * var(--width-fr)) solid transparent;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: calc(-94 / 256 * var(--width-fr));
+            left: calc(-12 / 256 * var(--width-fr));
+            width: calc(8 / 256 * var(--width-fr));
+            border-top: calc(22 / 256 * var(--width-fr)) solid #317D94;
+            border-left: calc(8 / 256 * var(--width-fr)) solid transparent;
+            border-right: calc(8 / 256 * var(--width-fr)) solid transparent;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: calc(-136 / 256 * var(--width-fr));
+            left: calc(4 / 256 * var(--width-fr));
+            width: calc(22 / 256 * var(--width-fr));
+            border-top: calc(50 / 256 * var(--width-fr)) solid #317D94;
+            border-left: calc(28 / 256 * var(--width-fr)) solid transparent;
+            border-right: calc(28 / 256 * var(--width-fr)) solid transparent;
+        }
+    }
+
+    >div:nth-child(2) {
+        position: absolute;
+        top: calc(86 / 256 * var(--width-fr));
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(224 / 256 * var(--width-fr));
+        height: calc(52 / 256 * var(--width-fr));
+        background-color: #fff;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: calc(184 / 256 * var(--width-fr));
+            height: calc(52 / 256 * var(--width-fr));
+            background: linear-gradient(to bottom, #C84652 0% 69.23%, #E14E5A 69.23% 100%)
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: calc(2 / 256 * var(--width-fr));
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: calc(116 / 256 * var(--width-fr));
+            height: calc(42 / 256 * var(--width-fr));
+            border-left: calc(16 / 256 * var(--width-fr)) solid #3C292B;
+            border-right: calc(16 / 256 * var(--width-fr)) solid #3C292B;
+        }
+    }
+
+    >div:nth-child(3) {
+        position: absolute;
+        left: 0;
+        bottom: calc(60 / 256 * var(--width-fr));
+        right: 0;
+        margin: 0 auto;
+        width: calc(204 / 256 * var(--width-fr));
+        height: calc(42 / 256 * var(--width-fr));
+        background-color: #CE779F;
+        border-top: calc(24 / 256 * var(--width-fr)) solid #944368;
+        border-left: calc(24 / 256 * var(--width-fr)) solid #944368;
+        border-right: calc(24 / 256 * var(--width-fr)) solid #944368;
+
+        &::before {
+            content: "";
+            position: absolute;
+            z-index: 2;
+            top: calc(-32 / 256 * var(--width-fr));
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: calc(18 / 256 * var(--width-fr));
+            height: calc(12 / 256 * var(--width-fr));
+            border-left: calc(4 / 256 * var(--width-fr)) solid #6B9AA5;
+            border-right: calc(4 / 256 * var(--width-fr)) solid #6B9AA5;
+
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: calc(-24 / 256 * var(--width-fr));
+            left: calc(-10 / 256 * var(--width-fr));
+            right: 0;
+            margin: 0 auto;
+            width: calc(128 / 256 * var(--width-fr));
+            height: calc(18 / 256 * var(--width-fr));
+            border-left: calc(24 / 256 * var(--width-fr)) solid #EFEFEF;
+            border-right: calc(24 / 256 * var(--width-fr)) solid #EFEFEF;
+        }
+    }
+}

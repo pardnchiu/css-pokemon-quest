@@ -1,0 +1,141 @@
+&[no="24"],
+&[no="024"] {
+    background-color: #A594C0;
+
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: calc(34 / 256 * var(--width-fr));
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(76 / 256 * var(--width-fr));
+        height: calc(22 / 256 * var(--width-fr));
+        box-sizing: border-box;
+        border-left: calc(12 / 256 * var(--width-fr)) solid #4A4747;
+        border-right: calc(12 / 256 * var(--width-fr)) solid #4A4747;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: calc(14 / 256 * var(--width-fr));
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(22 / 256 * var(--width-fr));
+        height: calc(40 / 256 * var(--width-fr));
+        background-color: #4A4747;
+    }
+
+    div:nth-child(1) {
+        position: relative;
+        margin: calc(46 / 256 * var(--width-fr)) auto 0;
+        width: calc(204 / 256 * var(--width-fr));
+        height: calc(46 / 256 * var(--width-fr));
+        border-top: calc(12 / 256 * var(--width-fr)) solid #4A4747;
+        border-left: calc(12 / 256 * var(--width-fr)) solid #4A4747;
+        border-right: calc(12 / 256 * var(--width-fr)) solid #4A4747;
+        background: linear-gradient(to right, #C86E65 0% 15.56%, #4A4747 15.56% 84.44%, #C86E65 84.44% 100%);
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: calc(-12 / 256 * var(--width-fr));
+            left: 0;
+            bottom: calc(12 / 256 * var(--width-fr));
+            right: 0;
+            margin: 0 auto;
+            width: calc(98 / 256 * var(--width-fr));
+            background-color: #A594C0;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: calc(-4 / 256 * var(--width-fr));
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: calc(76 / 256 * var(--width-fr));
+            height: calc(16 / 256 * var(--width-fr));
+            background-color: #4A4747;
+        }
+    }
+
+    div:nth-child(2) {
+        position: relative;
+        margin: 0 auto;
+        width: calc(204 / 256 * var(--width-fr));
+        height: calc(64 / 256 * var(--width-fr));
+        border-left: calc(12 / 256 * var(--width-fr)) solid #4A4747;
+        border-bottom: calc(12 / 256 * var(--width-fr)) solid #4A4747;
+        border-right: calc(12 / 256 * var(--width-fr)) solid #4A4747;
+        background: linear-gradient(to right, #C86E65 0% 35.56%, #4A4747 35.56% 64.44%, #C86E65 64.44% 100%);
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: calc(-12 / 256 * var(--width-fr));
+            left: 0;
+            bottom: calc(-12 / 256 * var(--width-fr));
+            right: 0;
+            margin: 0 auto;
+            width: calc(24 / 256 * var(--width-fr));
+            background-color: #A594C0;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: calc(10 / 256 * var(--width-fr));;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: calc(156 / 256 * var(--width-fr));
+            height: calc(32 / 256 * var(--width-fr));
+            box-sizing: border-box;
+            border-left: calc(40 / 256 * var(--width-fr)) solid #C8BA5D;
+            border-right: calc(40 / 256 * var(--width-fr)) solid #C8BA5D;
+        }
+    }
+
+    div:nth-child(3) {
+        position: absolute;
+        left: 0;
+        bottom: calc(32 / 256 * var(--width-fr));
+        right: 0;
+        margin: 0 auto;
+        width: calc(226 / 256 * var(--width-fr));
+        height: calc(56 / 256 * var(--width-fr));
+        border-left: calc(16 / 256 * var(--width-fr)) solid #4A4747;
+        border-bottom: calc(44 / 256 * var(--width-fr)) solid #4A4747;
+        border-right: calc(16 / 256 * var(--width-fr)) solid #4A4747;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: calc(52 / 256 * var(--width-fr));
+            height: calc(12 / 256 * var(--width-fr));
+            background-color: #4A4747;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: calc(56 / 256 * var(--width-fr));
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: calc(32 / 256 * var(--width-fr));
+            height: calc(18 / 256 * var(--width-fr));
+            background-color: #4A4747;
+        }
+    }
+}

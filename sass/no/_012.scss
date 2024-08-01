@@ -1,0 +1,186 @@
+&.no012 {
+    background-color: #746F87;
+
+    >div:nth-child(1) {
+        position: relative;
+        margin: calc(30 / 256 * var(--width-fr)) auto 0;
+        width: calc(224 / 256 * var(--width-fr));
+        height: calc(110 / 256 * var(--width-fr));
+        
+        >div {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: calc(84 / 256 * var(--width-fr));
+            height: 100%;
+            background-color: #CE7A73;
+
+            &:nth-child(1) {
+                left: 0;
+
+                &::before {
+                    right: 0;
+                }
+
+                &::after {
+                    right: calc(8 / 256 * var(--width-fr));
+                }
+            }
+
+            &:nth-child(2) {
+                right: 0;
+
+                &::before {
+                    left: 0;
+                }
+
+                &::after {
+                    left: calc(8 / 256 * var(--width-fr));
+                }
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                width: calc(64 / 256 * var(--width-fr));
+                height: calc(70 / 256 * var(--width-fr));
+                background-color: #DD837C;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: calc(8 / 256 * var(--width-fr));
+                width: calc(34 / 256 * var(--width-fr));
+                height: calc(34 / 256 * var(--width-fr));
+                background-color: #E4BEBB;
+            }
+        }
+    }
+
+    >div:nth-child(2) {
+        position: relative;
+        margin: calc(6 / 256 * var(--width-fr)) auto;
+        width: calc(54 / 256 * var(--width-fr));
+        height: calc(30 / 256 * var(--width-fr));
+        background-color: #688EA3;
+
+        &::before {
+            left: 0;
+        }
+
+        &::after {
+            right: 0;
+        }
+
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: calc(-12 / 256 * var(--width-fr));
+            width: calc(12 / 256 * var(--width-fr));
+            height: calc(12 / 256 * var(--width-fr));
+            background-color: #EAF1F8;
+        }
+    }
+
+    >div:nth-child(3) {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: calc(60 / 256 * var(--width-fr));
+
+        div {
+            position: absolute;
+            top: 0;
+            width: calc(28 / 256 * var(--width-fr));
+            height: calc(38 / 256 * var(--width-fr));
+            background-color: #EAF1F8;
+
+            &:nth-child(1) {
+                left: 0;
+            }
+
+            &:nth-child(2) {
+                right: 0;
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: calc(38 / 256 * var(--width-fr));
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: calc(22 / 256 * var(--width-fr));
+                background-color: #605F60;
+            }
+        }
+    }
+
+    >div:nth-child(4) {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: 0 auto;
+        width: calc(124 / 256 * var(--width-fr));
+        height: calc(30 / 256 * var(--width-fr));
+
+        div {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: calc(28 / 256 * var(--width-fr));
+            height: calc(30 / 256 * var(--width-fr));
+            background-color: #688FA3;
+
+            &:nth-child(1) {
+                left: 0;
+
+                &::before {
+                    left: calc(-4 / 256 * var(--width-fr));
+                    border-right: calc(4 / 256 * var(--width-fr)) solid #688FA3;
+                }
+
+                &::after {
+                    right: calc(-6 / 256 * var(--width-fr));
+                    border-left: calc(6 / 256 * var(--width-fr)) solid #688FA3;
+                }
+            }
+
+            &:nth-child(2) {
+                right: 0;
+
+                &::before {
+                    right: calc(-4 / 256 * var(--width-fr));
+                    border-left: calc(4 / 256 * var(--width-fr)) solid #688FA3;
+                }
+
+                &::after {
+                    left: calc(-6 / 256 * var(--width-fr));
+                    border-right: calc(6 / 256 * var(--width-fr)) solid #688FA3;
+                }
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                height: 100%;
+                border-top: calc(4 / 256 * var(--width-fr)) solid transparent;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                height: 100%;
+                border-top: calc(4 / 256 * var(--width-fr)) solid transparent;
+            }
+        }
+    }
+}
